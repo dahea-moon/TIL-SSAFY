@@ -1,6 +1,6 @@
 import webbrowser
 
-urls=[
+urls = [
     'www.naver.com',
     'www.google.com',
     'www.slack.com',
@@ -11,7 +11,7 @@ urls=[
 # for url in urls:
 #     webbrowser.open(url)
 
-i=0
+i = 0
 while i < 5:
     webbrowser.open(urls[i])
     i += 1
