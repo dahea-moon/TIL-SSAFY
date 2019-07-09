@@ -32,11 +32,11 @@ git: scm (source code manager) / vcs (version control system)
 
 `git push`: git에 백업하기
 
-`git remote add origin`:  내 백업은 여기로 보내
+`git remote add <drive name>`:  내 백업은 여기로 보내
 
 `git remote -v`: 내 백업 공간은 어디야?
 
-`git push origin master`:  origin으로 백업 해줘
+`git push <drive name> master`:  <drive name>으로 백업 해줘
 
 `git add -A`: 여러개를 한 번에 저장할게
 
@@ -46,7 +46,49 @@ git: scm (source code manager) / vcs (version control system)
 
 ## 내 git sign
 
-`git config-global user.email "email"`
+````git
+git config-global user.email "email"
 
-`git config-global user.name "name"`
+git config-global user.name "name"
+````
 
+# Web
+
+## web browser 열기
+
+```python
+import webbrowser
+urls=[
+
+	'www.naver.com',
+
+    'www.google.com',
+
+    'www.slack.com',
+
+    'www.github.com',
+
+    'www.youtube.com'
+
+]
+
+
+
+for url in urls:
+
+     webbrowser.open(url)
+
+
+
+i=0
+
+while i < 5:
+webbrowser.open(urls[i])
+
+i += 1
+```
+
+
+# web에서의 커뮤니케이션 방식
+
+요청과 응답
