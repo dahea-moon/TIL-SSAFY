@@ -155,11 +155,11 @@ JSON은 JavaScript Object Notation의 줄임말로, 기본적으로 키-값쌍�
 ````python
 from iexfinance.stocks import Stock
 
-company = Stock('TSLA', token='pk_34947d6f20564c52a9dcd62bf4d4ab5f')
+company = Stock('TSLA', token='pk_numbers')
 
 print(company.get_price())
 
-company = Stock('AAPL', token='pk_34947d6f20564c52a9dcd62bf4d4ab5f')
+company = Stock('AAPL', token='pk_numbers')
 
 print(company.get_quote())
 ````
