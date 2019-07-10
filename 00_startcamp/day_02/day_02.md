@@ -4,7 +4,7 @@ git: scm (source code manager) / vcs (version control system)
 
 버전 관리를 해주는 cctv
 
-
+## 명령어
 
 `git init`: 이 dic에 git을 넣음 - master가 붙음
 
@@ -186,6 +186,12 @@ for row in rows:
 
 코드로 csv를 쓰면 여러 값들을 정리해서 문서로 쓰고, 엑셀로 불러올 수도 있다.
 
+`with open ()`: ()을 여는 함수
+
+`with open ('file name', 'w/r')`: 파일을 쓰는 버전 또는 읽는 버전으로 실행
+
+`f.write/read`: file을 써라/ 읽어라
+
 ````python
 lunches = {
     '양자강': '02-888-9999',
@@ -198,7 +204,8 @@ with open('lunch.csv', 'w', encoding='utf-8') as f:
     f.write('식당이름, 전화번호\n')
     #lunches.items에서 name, phone을 반복해서
     for name, phone in lunches.items():
-        f.write(f'{name},{phone}\n') #\n은 enter 역할을 한다
+        f.write(f'{name},{phone}\n') 
+        #\n은 줄바꿈 역할을 한다
 
 #dictionary에서 key와 value를 모두 출력한다
 for key,value in lunches.items():
