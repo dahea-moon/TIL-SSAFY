@@ -50,12 +50,6 @@ def send():
     return render_template('send.html')
 
 
-# @app.route('/receive')
-# def receive():
-#     data = request.args.get('msg')
-#     return render_template("receive.html", data=data)
-
-
 @app.route('/receive', methods=['POST'])
 def receive():
     data = request.form.get('msg')

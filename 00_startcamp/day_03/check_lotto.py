@@ -9,16 +9,16 @@ import random
 
 my = random.sample(range(1, 46), 6)
 print(my)
-set(my)
 
 # my = [23, 45, 26, 35, 3, 14]
 # set(my)
 
+#[1,2,3] > LIST / {1,2,3} > SET / (1,2,3) > TUPLE / {'A':'a'} > dict
 real = {23, 3, 45, 26, 35, 14}
 bonus = {34}
 
-num_match_1 = len(set(my) & set(real))
-num_match_2 = len(set(my) & set(bonus))
+num_match_1 = len(set(my) & real) # .intersection == & == 교집합
+num_match_2 = len(set(my) & bonus)
 
 if num_match_1 == 6:
     print('1등')
