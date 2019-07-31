@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS basic</title>
+    <style>
+        /* !important > inline css > [id > **class**] > *tag* > browser 기본세팅 */
+        /* id와 class는 selector */
+        /* !important랑 id는 사용하지 않는게 좋다. class를 많이 사용하자! */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: rgb(255, 97, 49);
+        }
+
+        h2 {
+            color: palevioletred !important;
+        }
+
+        h3 {
+            color: rebeccapurple;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .big {
+            font-size: 100px;
+        }
+
+        #green {
+            color: green
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, CSS</h1>
+    <h2 class="blue">Selector</h2>
+    <h3 class="blue big">See how it works</h3>
+
+</body>
+</html>

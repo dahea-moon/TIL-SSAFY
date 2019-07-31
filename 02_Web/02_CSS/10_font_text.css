@@ -1,0 +1,42 @@
+.size-40 { font-size: 40px; }
+.size-2x { font-size: 2.0em; }
+/* 보통 em 단위로 움직인다 */
+.size-150 { font-size: 150%; }
+.size-large { font-size: xx-large; }
+
+
+/* font-family에 들어가는 3개의 값은 폰트의 우선순위를 의미한다. 첫번째 꺼가 없으면 두번쨰로, 두번쨰도 없으면 세번쨰. 그래서 마지막은 늘 기본체여야 한다. */
+.serif{
+    font-family: "Times New Roman", Times, serif;
+}
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.italic {
+    /* normal, italic, oblique */
+    font-style: oblique;
+}
+
+.weight {
+    font-weight: 800;
+}
+
+.loose {
+    letter-spacing: 5px;
+}
+
+h1 { text-align: center; }
+h2 { text-align: right; }
+p.left { text-align: left; }
+p.right { text-align: justify; }
+
+/* inline 요소는 text-align 속성이 소용이 없다. inline은 늘 가운데 정렬되어있고, 자신의 길이만큼만 block을 차지하고 있기때문이다. */
+/* 어떠한 공간의 어떠한 위치로 옮기고 싶다면, box 안에 넣어야 한다 */
+a { text-align: center; }
+div.center-image {
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+/* p {
+    <Property>: <Value>
+ }
+  */
+
+/*첫번째 자식들 중 p인 요소*/
+p:first-child {
+    color: gold;
+}
+/*마지막 자식들 중 p인 요소*/
+p:last-child {
+    color: violet;
+}
+
+/*부모는 모르겠고 아무튼 4째 인데 p*/
+p:nth-child(4) {
+    color: lemonchiffon;
+}
+
+article:first-of-type {
+    background-color: red;
+}
+
+article:nth-of-type(2) {
+    color: green;
+}
+
+article:nth-last-of-type(2) {
+    background-color: aqua;
+}
+
+article:last-of-type{
+    background-color: gold;
+}
+
+
+
+
+/* pseudo class selector */
+/* 상태에 따라 클래스를 바꾼다 */
+/* selector: 가상-클래스 */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited { /*방문한 link*/
+    color: beige;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+a:link { /*방문하지않은 link*/
+    color: red;
+}

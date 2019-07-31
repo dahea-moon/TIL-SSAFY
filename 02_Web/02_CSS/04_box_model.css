@@ -1,0 +1,17 @@
+div {
+    border: solid 1px black;
+    padding: 10px 1px 10px 10px; /*시계방향 순; top-right-bottom-left*/
+    margin: 10px /*이렇게 하나만 쓰면 4면 모두 같은 값*/
+}
+
+div.a {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: red;
+    padding: 20px;
+    margin: 50px 30px; /*상하 좌우*/
+}
+
+article.like-p {
+    margin: 1em 0;
+}

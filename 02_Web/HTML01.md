@@ -60,19 +60,20 @@ URL은 웹사이트 주소 뿐만 아니라, 컴퓨터 네트워크 상의 자�
 
   - HTML must start with document type declaration; `<!DOCTYPE html>`
   - This declaration is an instruction for the browser telling what type of document to expect.
-
 - HTML: `<html>-</html>`
 
   - creating HTML structure and content
   - opening tag after declaring document type and closing tag at the last line of document
-
 - head: `<head>-</head>`
 
   - The head element contains the metadata for a web page. Metadata is information about the page that isn't displayed directly on the web page.
-
 - body: `<body> - </body>`
 
   - Any visible content should be placed within the body tags.
+- header: `<header>-</header>`
+  - represents introductory content of its nearest parent sectioning content or root element
+  - If its nearest parent section is the body element, then it applies to the whole page.
+  - contains a group of introductory or navigational aids
 
 -  heading: `<h1> - </h1>` 
 
@@ -163,4 +164,9 @@ URL은 웹사이트 주소 뿐만 아니라, 컴퓨터 네트워크 상의 자�
   - The name of the attribute
   - The value of the attribute
 - `id` : to specify different content such as <div>s when use more than one element
-- 
+- When you have to enter several values to one attribute, you use space to identify each value.
+
+### 4.3 Semantic tags
+
+- Semantic tag: 
+
