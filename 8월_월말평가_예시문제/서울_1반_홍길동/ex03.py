@@ -9,8 +9,8 @@ class Point:
         return 'Point:({}, {})'.format(self.x, self.y)
 
 class Circle:
-    def __init__(self, Point, r):
-        self.center = Point
+    def __init__(self, p, r):
+        self.center = p.x, p.y
         self.r = r
 
     def get_area(self):
@@ -20,10 +20,10 @@ class Circle:
         return 2 * self.r * 3.14
 
     def get_center(self):
-        return self.center.__str__()
+        return self.center
 
     def __str__(self):
-        return 'Circle:({},{}), r:{}'.format(self.center.x, self.center.y, self.r)
+        return 'Circle:{}, r:{}'.format(self.center, self.r)
 
 
 # 실행 결과를 확인하기 위한 코드입니다. 수정하지 마시오.
