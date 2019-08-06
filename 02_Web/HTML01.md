@@ -380,7 +380,7 @@ URL은 웹사이트 주소 뿐만 아니라, 컴퓨터 네트워크 상의 자�
 
   ![rendered form containing radio buttons](https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/radioInput+-+labeled.png)
 
-- Dropdown list:  Representing an organized list and allowing users to choose one option form the list.
+- Select Box / Dropdown list:  Representing an organized list and allowing users to choose one option form the list.
 
   ```html
   <form>
