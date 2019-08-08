@@ -145,3 +145,10 @@
 
   
 
+## 3. CSS Visual Rules
+
+- CSS structure: 
+  - CSS declarations consist of a property and a value.
+  - The property and value are separated by a colon `:`.
+  - A semicolon`;` should always be used at the end of a declaration.
+  - 
