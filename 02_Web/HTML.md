@@ -34,7 +34,7 @@ URL은 웹사이트 주소 뿐만 아니라, 컴퓨터 네트워크 상의 자�
 
 ## 4. HTML
 
-* HTML: Hyper Text Transfer Protool
+* HTML: Hyper Text Markup Layout
 
 * HTML is used to create the structure and content of a webpage.
 
