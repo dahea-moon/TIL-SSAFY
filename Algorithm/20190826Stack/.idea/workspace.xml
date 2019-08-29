@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ead9dd0-3b28-4aed-b395-475b49ab41f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../20190902 Queue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/문제1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/문제2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../im모의/문제3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190822Stack/workline.py" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/workline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190822Stack/workline.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/workline.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/20190826Stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190826Stack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py" beforeDir="false" afterPath="$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py" beforeDir="false" afterPath="$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/서울3반_문다혜_과목평가_알고리즘 답안.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/서울3반_문다혜_과목평가_알고리즘 답안.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,35 +29,35 @@
     <session id="707740714">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="8" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3761" />
+          <entry key="py" value="6341" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3761" />
+          <entry key="Python" value="6341" />
         </counts>
       </usages-collector>
     </session>
@@ -51,22 +65,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190826_4874_서울3반_문다혜.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <marker date="1566789630745" expanded="true" signature="156:443" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <marker date="1566806244179" expanded="true" signature="768:881" ph="..." />
               </folding>
@@ -74,17 +76,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="551">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <marker date="1566810144083" expanded="true" signature="176:594" ph="..." />
-                <marker date="1566810144083" expanded="true" signature="607:763" ph="..." />
+                <marker date="1566868557364" expanded="true" signature="50:52" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20190826_4881_서울3반_문다혜.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cal2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4880_input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -99,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5852">
-              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            <state relative-caret-position="6061">
+              <caret line="319" selection-start-line="319" selection-end-line="319" />
             </state>
           </provider>
         </entry>
@@ -149,6 +173,8 @@
         <option value="$PROJECT_DIR$/input_10_100.txt" />
         <option value="$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py" />
         <option value="$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py" />
+        <option value="$PROJECT_DIR$/20190826_4881_서울3반_문다혜.py" />
+        <option value="$PROJECT_DIR$/cal2.py" />
       </list>
     </option>
   </component>
@@ -178,8 +204,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../im모의" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20190826_4880_서울3반_문다혜">
+  <component name="RunManager" selected="Python.20190826_4881_서울3반_문다혜">
     <configuration name="20190826_4874_서울3반_문다혜" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190826Stack" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,13 +283,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="20190826_4881_서울3반_문다혜" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190826Stack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20190826_4881_서울3반_문다혜.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.20190826_4874_서울3반_문다혜" />
       <item itemvalue="Python.20190826_4875_서울3반_문다혜" />
       <item itemvalue="Python.20190826_4880_서울3반_문다혜" />
+      <item itemvalue="Python.20190826_4881_서울3반_문다혜" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20190826_4881_서울3반_문다혜" />
         <item itemvalue="Python.20190826_4880_서울3반_문다혜" />
         <item itemvalue="Python.20190826_4875_서울3반_문다혜" />
         <item itemvalue="Python.20190826_4874_서울3반_문다혜" />
@@ -294,15 +343,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24657534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20390455" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39587852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20281996" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39154014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -336,12 +384,73 @@
         <breakpoints-dialog />
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="minsum" language="Python" />
+        <watch expression="visited" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>visited</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>minsum</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/maze2.py" />
+    <entry file="file://$PROJECT_DIR$/20190826_4874_서울3반_문다혜.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <marker date="1566789630745" expanded="true" signature="156:443" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <marker date="1566806244179" expanded="true" signature="768:881" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1566868557364" expanded="true" signature="50:52" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4880_input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_10_100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        <state relative-caret-position="6061">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
         </state>
       </provider>
     </entry>
@@ -358,48 +467,17 @@
     <entry file="file://$PROJECT_DIR$/4875_input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190826_4874_서울3반_문다혜.py">
+    <entry file="file://$PROJECT_DIR$/20190826_4881_서울3반_문다혜.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <marker date="1566789630745" expanded="true" signature="156:443" ph="..." />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maze2.py">
+    <entry file="file://$PROJECT_DIR$/cal2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_10_100.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190826_4875_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <marker date="1566806244179" expanded="true" signature="768:881" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190826_4880_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <marker date="1566810144083" expanded="true" signature="176:594" ph="..." />
-            <marker date="1566810144083" expanded="true" signature="607:763" ph="..." />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
