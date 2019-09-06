@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9091a06-0c85-405c-aa6b-fe8a5b7f5f15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20190902 Queue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문제1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문제2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문제3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822Stack/workline.py" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/workline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822Stack/workline.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/workline.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/20190826Stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190826Stack/.idea/20190826Stack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190826Stack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/20190826_4880_서울3반_문다혜.py" beforeDir="false" afterPath="$PROJECT_DIR$/../20190826Stack/20190826_4880_서울3반_문다혜.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/서울3반_문다혜_과목평가_알고리즘 답안.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/서울3반_문다혜_과목평가_알고리즘 답안.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +17,12 @@
     <session id="-747395964">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -132,7 +117,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/3.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2109">
+                <state relative-caret-position="4123">
                   <caret line="217" selection-start-line="217" selection-end-line="217" />
                 </state>
               </provider>
@@ -160,11 +145,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/3.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2038">
+                <state relative-caret-position="885">
                   <caret line="217" selection-start-line="217" selection-end-line="217" />
                 </state>
               </provider>
@@ -212,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,9 +370,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16649105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16649105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -504,17 +488,17 @@
     <entry file="file://$PROJECT_DIR$/walls.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/문제3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
         </state>
       </provider>
     </entry>

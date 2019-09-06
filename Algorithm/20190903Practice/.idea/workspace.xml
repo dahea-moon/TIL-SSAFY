@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e82f4be-6283-418f-929f-697e3122717f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20190904Practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190904Practice/pascal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190905Practice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db957680-fa38-4840-9eed-a0284532e30f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822Stack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/20190826Stack.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/modules.xml" beforeDir="false" />
@@ -22,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../20190826Stack/cal2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190826Stack/input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190826Stack/input_10_100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190827Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190827Queue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190828Queue/.idea/20190828Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190828Queue/.idea/20190828Queue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190828Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190828Queue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190902 Queue/.idea/20190902 Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190902 Queue/.idea/20190902 Queue.iml" afterDir="false" />
@@ -36,109 +32,99 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1005214105">
+    <session id="-585536572">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="6736" />
-          <entry key="txt" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="6736" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="5" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2726" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2726" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190822_4866_서울3반_문다혜.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190822_4869_서울3반_문다혜.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
+        <entry file="file://$PROJECT_DIR$/fly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190822_4873_서울3반_문다혜.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190822_4871_서울3반_문다혜.py">
+        <entry file="file://$PROJECT_DIR$/danjo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1567471889785" expanded="true" signature="69:181" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4873.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+        <entry file="file://$PROJECT_DIR$/verticalreading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5890">
-              <caret line="310" selection-start-line="310" selection-end-line="310" />
+            <state relative-caret-position="285">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4871.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back_bingo.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paper.txt">
+        <entry file="file://$PROJECT_DIR$/osello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <marker date="1567479113873" expanded="true" signature="68:141" ph="..." />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/O2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/osello_input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/danjo_input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -156,20 +142,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4869.py" />
-        <option value="$PROJECT_DIR$/paper.txt" />
-        <option value="$PROJECT_DIR$/back_bingo.py" />
-        <option value="$PROJECT_DIR$/baek_paper.py" />
-        <option value="$PROJECT_DIR$/4871.py" />
-        <option value="$PROJECT_DIR$/4873.py" />
-        <option value="$PROJECT_DIR$/workline.txt" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/workline.py" />
+        <option value="$PROJECT_DIR$/fly.py" />
+        <option value="$PROJECT_DIR$/danjo.py" />
+        <option value="$PROJECT_DIR$/verticalreading.py" />
+        <option value="$PROJECT_DIR$/osello.py" />
+        <option value="$PROJECT_DIR$/O2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -183,8 +165,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="20190822Stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20190822Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="20190903Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20190903Practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20190906Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunDashboard">
@@ -209,9 +191,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.workline">
-    <configuration name="4869" type="PythonConfigurationType" factoryName="Python">
-      <module name="20190822Stack" />
+  <component name="RunManager" selected="Python.O2">
+    <configuration name="O2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190903Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -222,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4869.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/O2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,8 +213,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4871" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190822Stack" />
+    <configuration name="danjo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190903Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -243,7 +225,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4871.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/danjo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,8 +234,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4873" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190822Stack" />
+    <configuration name="fly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190903Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -264,7 +246,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4873.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,8 +255,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baek_paper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190822Stack" />
+    <configuration name="osello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190903Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -285,7 +267,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek_paper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/osello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,8 +276,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="workline" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190822Stack" />
+    <configuration name="verticalreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190903Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -306,7 +288,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/verticalreading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,18 +298,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4869" />
-      <item itemvalue="Python.baek_paper" />
-      <item itemvalue="Python.4871" />
-      <item itemvalue="Python.4873" />
-      <item itemvalue="Python.workline" />
+      <item itemvalue="Python.fly" />
+      <item itemvalue="Python.danjo" />
+      <item itemvalue="Python.verticalreading" />
+      <item itemvalue="Python.osello" />
+      <item itemvalue="Python.O2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.workline" />
-        <item itemvalue="Python.4873" />
-        <item itemvalue="Python.4871" />
-        <item itemvalue="Python.baek_paper" />
+        <item itemvalue="Python.O2" />
+        <item itemvalue="Python.osello" />
+        <item itemvalue="Python.verticalreading" />
+        <item itemvalue="Python.danjo" />
+        <item itemvalue="Python.fly" />
       </list>
     </recent_temporary>
   </component>
@@ -336,25 +319,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e82f4be-6283-418f-929f-697e3122717f" name="Default Changelist" comment="" />
-      <created>1566370759805</created>
+      <changelist id="db957680-fa38-4840-9eed-a0284532e30f" name="Default Changelist" comment="" />
+      <created>1567470179353</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566370759805</updated>
+      <updated>1567470179353</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21047008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38177875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3264642" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -370,91 +353,51 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4869_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4869.py" />
-    <entry file="file://$PROJECT_DIR$/4871.py" />
-    <entry file="file://$PROJECT_DIR$/4873.py" />
-    <entry file="file://$PROJECT_DIR$/baek_paper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workline.txt">
+    <entry file="file://$PROJECT_DIR$/fly.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/verticalreading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190822_4873_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4873.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/osello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5890">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="209">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <marker date="1567479113873" expanded="true" signature="68:141" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4871.txt">
+    <entry file="file://$PROJECT_DIR$/osello_input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/back_bingo.py">
+    <entry file="file://$PROJECT_DIR$/danjo_input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/paper.txt">
+    <entry file="file://$PROJECT_DIR$/O2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="329">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190822_4866_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190822_4869_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190822_4871_서울3반_문다혜.py">
+    <entry file="file://$PROJECT_DIR$/danjo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1567471889785" expanded="true" signature="69:181" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
