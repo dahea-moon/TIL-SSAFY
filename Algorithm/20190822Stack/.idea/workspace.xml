@@ -2,32 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e82f4be-6283-418f-929f-697e3122717f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20190904Practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190904Practice/pascal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190905Practice/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/20190826Stack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/20190826_4874_서울3반_문다혜.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/20190826_4875_서울3반_문다혜.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/20190826_4880_서울3반_문다혜.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/20190826_4881_서울3반_문다혜.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/4874_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/4875_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/4880_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/4881_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/cal2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190826Stack/input_10_100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190827Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190827Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190828Queue/.idea/20190828Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190828Queue/.idea/20190828Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190828Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190828Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190902 Queue/.idea/20190902 Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190902 Queue/.idea/20190902 Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190902 Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190902 Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../im모의/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../im모의/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190909Tree/tree practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190910Tree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190910Tree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190910Tree/sudoku_not_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190910Tree/tree_cal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/bank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/bit_prac2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/bit_prac5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/bitcal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/bite_prac1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/code_scan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/double_prac3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190911Start/jinsu_prac2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/babygin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/powerset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/sorting_recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190917Greedy/work_part.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190906Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190906Practice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +34,12 @@
     <session id="1005214105">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -61,14 +56,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
+          <entry key="py" value="11" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="10" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -86,20 +81,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20190822_4873_서울3반_문다혜.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20190822_4871_서울3반_문다혜.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
@@ -130,6 +116,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back_bingo.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baek_paper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -194,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20190906Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunDashboard">
@@ -391,13 +386,6 @@
     <entry file="file://$PROJECT_DIR$/4869.py" />
     <entry file="file://$PROJECT_DIR$/4871.py" />
     <entry file="file://$PROJECT_DIR$/4873.py" />
-    <entry file="file://$PROJECT_DIR$/baek_paper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -419,9 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190822_4873_서울3반_문다혜.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/4873.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -433,9 +418,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4871.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back_bingo.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/paper.txt">
@@ -455,6 +437,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190822_4873_서울3반_문다혜.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_bingo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baek_paper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
