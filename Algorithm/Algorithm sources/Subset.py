@@ -15,3 +15,36 @@ for i in range(1<<n): # 1<<n == 부분 집합의 개수
         if i & (i<<j): # and 연산 후 i의 j 번째 비트가 1, 즉 True 이면 j번째 원소 출력
             print(arr[j])
 
+def powersetlist(s):
+    r = [[]]
+    for e in s:
+        temp = [x+[e] for x in r]
+        r += temp
+    print(r)
+
+def power_set_i():
+    bit = [0, 0, 0]
+    for i in range(2):
+        bit[0] = i
+        for j in range(2):
+            bit[1] = j
+            for k in range(2):
+                bit[2] = k
+                print(bit)
+
+def power_set_r(k):
+    if k == N:
+        print(a)
+    else:
+        a[k] = 1
+        power_set_r(k + 1)
+        a[k] = 0
+        power_set_r(k + 1)
+
+print('부분집합 반복문')
+power_set_i()
+
+N = 3
+a = [0] * N
+print('부분집합 재귀문')
+power_set_r(0)
