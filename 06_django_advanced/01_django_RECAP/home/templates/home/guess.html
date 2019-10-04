@@ -1,0 +1,27 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+    Guess me
+{% endblock %}
+
+{% block body %}
+    <h1>질문지</h1>
+    <form action="{% url 'home:answer' %}", method="GET">
+        <div>
+            <label for="Q1">내 생일은?</label>
+            <input id="Q1" name="q1" type="text">
+        </div>
+
+        <div>
+            <label for="Q2">내가 좋아하는 색은?</label>
+            <input id="Q2" name="q2" type="text">
+        <div>
+
+        <div>
+            <label for="Q3">내가 좋아하는 음식은?</label>
+            <input id="Q3" name="q3" type="text">
+        </div>
+
+        <input type="submit" value="submit">
+    </form>
+{% endblock %}
