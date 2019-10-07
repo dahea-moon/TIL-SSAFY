@@ -6,7 +6,8 @@
 
 {% block body %}
     <h1>질문지</h1>
-    <form action="{% url 'home:answer' %}", method="GET">
+    <form action="{% url 'home:answer' %}", method="POST">
+        {% csrf_token %}
         <div>
             <label for="Q1">내 생일은?</label>
             <input id="Q1" name="q1" type="text">

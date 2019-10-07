@@ -11,17 +11,17 @@ def guess(request):
 def answer(request):
     count = 0
     wrong = 0
-    if request.GET.get('q1') == '0512':
+    if request.POST.get('q1') == '0512':
         count += 1
     else:
         wrong += 1
 
-    if request.GET.get('q2') == 'blue':
+    if request.POST.get('q2') == 'blue':
         count += 1
     else:
         wrong += 1
 
-    if request.GET.get('q3') == 'food':
+    if request.POST.get('q3') == 'food':
         count += 1
     else:
         wrong += 1
