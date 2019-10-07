@@ -1,0 +1,19 @@
+{% extends 'board/base.html' %}
+{% block title %}
+{% endblock title %}
+{% block body %}
+    <form action="{% url 'board:create' %}" method="POST">
+        {% csrf_token %}
+        <h1>New Article</h1>
+        <div>
+            <label for="title">Title:</label>
+            <input id="title" name="title">
+        </div>
+        <div>
+            <label for="content">Content:</label>
+            <textarea cols="30" rows="10" id="content" name="content"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Write">
+        </div>
+{% endblock body %}
