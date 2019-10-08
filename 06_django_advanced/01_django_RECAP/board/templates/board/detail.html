@@ -5,8 +5,26 @@ Article detail
 {% endblock title %}
 
 {% block body %}
-<h1>{{ article.title }}</h1>
-<p>
-    {{ article.content }}
-</p>
+    <h1>{{ article.title }}</h1>
+    <p>
+        {{ article.content }}
+    </p>
+    <div>
+        <a href="{% url 'board:edit' article.id %}">
+            <button>Edit</button>
+        </a>
+    </div>
+    <div>
+        <form action="{% url 'board:delete' article.id %}" method='POST'>
+            {% csrf_token %}
+            <input type="submit" id="delButton" value="delete">
+        </form>
+    </div>
+    <script>
+        const delButton = document.querySelector('#delButton');
+        function popUp() {
+            return confirm('really?')
+        }
+        delButton.addEventLister('click', popUp);
+    </script>
 {% endblock body %}

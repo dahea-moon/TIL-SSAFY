@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac0a34d3-c2ca-4807-bc35-30d703908313" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190919 Backtracking/imigration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190919 Backtracking/powerset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190919 Backtracking/practice tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190919 Backtracking/quick sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190919 Backtracking/장훈이의 높은 선반.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/5247.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/5248.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/5249.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/5251.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/5251.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/BFS Prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/DFS Prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190923 graph/birthdayparty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190925 Practice/prize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190925 Practice/rooms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190925 Practice/village people.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190925 Practice/village_people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190926/honey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190926/honey.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190926/swimming pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190926/swimmingpool.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190926/swimmingpool_dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm sources/combination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithm sources/permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../서울3반 문다혜 월말평가/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../서울3반 문다혜 월말평가/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithm sources/Subset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm sources/Subset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../서울3반_문다혜_과목평가_알고리즘 답안/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_django_advanced/01_django_RECAP/django_recap/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_django_advanced/01_django_RECAP/django_recap/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_django_advanced/01_django_RECAP/django_recap/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_django_advanced/01_django_RECAP/django_recap/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +16,10 @@
     <session id="890133713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree_cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="494">
+              <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -186,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,11 +167,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -434,8 +404,8 @@
     <entry file="file://$PROJECT_DIR$/5178.py" />
     <entry file="file://$PROJECT_DIR$/tree_cal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="494">
+          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>

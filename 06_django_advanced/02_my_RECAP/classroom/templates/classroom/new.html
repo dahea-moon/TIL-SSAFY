@@ -1,0 +1,26 @@
+{% extends 'classroom/base.html' %}
+
+{% block title %}
+New Student
+{% endblock title %}
+
+{% block body %}
+    <form action="{% url 'classroom:create' %}" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="major">Major:</label>
+            <input type="text" name="major" id="major">
+        </div>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+{% endblock body %}

@@ -1,0 +1,19 @@
+{% extends 'classroom/base.html' %}\
+
+{% block title %}
+Classroom Board
+{% endblock title %}
+
+{% block body %}
+    <h1>SSAFY 2기 3반</h1>
+    <ul>
+    {% for student in students %}
+    <ul>
+        <a href="{% url 'classroom:detail' student.id %}">{{ student.name }}</a>
+    </ul>
+    {% endfor %}
+    </ul>
+    <div>
+        <a href="{% url 'classroom:new' %}"><button>New Student</button></a>
+    </div>
+{% endblock body %}
