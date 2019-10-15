@@ -10,12 +10,12 @@ Article detail
         {{ article.content }}
     </p>
     <div>
-        <a href="{% url 'board:edit' article.id %}">
+        <a href="{% url 'board:edit_article' article.id %}">
             <button>Edit</button>
         </a>
     </div>
     <div>
-        <form action="{% url 'board:delete' article.id %}" method='POST'>
+        <form action="{% url 'board:delete_article' article.id %}" method='POST'>
             {% csrf_token %}
             <input type="submit" id="delButton" value="delete">
         </form>
@@ -27,4 +27,7 @@ Article detail
         }
         delButton.addEventLister('click', popUp);
     </script>
+
+    {% include 'board/_comment.html' %}
+
 {% endblock body %}

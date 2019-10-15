@@ -1,12 +1,27 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_GET, require_POST, require_http_methods
-from .models import Article
+from .models import Article, Comment
 from IPython import embed
-from .forms import ArticleModelForm
+from .forms import ArticleModelForm, CommentModelForm
+
+
+def new_article_with_form(request):
+    if request.method == 'POST':
+        form = ArticleForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data.get('title')
+            content = form.cleaned_data.get('content')
+            article = Article.objects.created(title=title, content=content)
+            return redirect(article)
+    else:
+        form = ArticleForm()
+    return render(request, 'board/new.html', {
+        'form': form
+    })
 
 #CRUD
 @require_http_methods(['GET', 'POST'])
-def new(request):
+def new_article(request):
     # 요청이 GET/POST 인지 확인한다.
     # 만약 POST 라면,
     if request.method == 'POST':
@@ -17,7 +32,7 @@ def new(request):
             # 유효하다면 저장한다.
             article = form.save()
             # 저장한 article 로 redirect 한다.
-            # redirect('board:detail', article.id) => get_absolute_url 때문에 줄이기 가능
+            # redirect('board:article_detail', article.id) => get_absolute_url 때문에 줄이기 가능
             return redirect(article)
         # form이 유효하지않다면,
         else:
@@ -34,24 +49,26 @@ def new(request):
             'form': form,
         })
 
-def list(request):
+def list_article(request):
     articles = Article.objects.all()
     context = {'articles': articles}
     return render(request, 'board/list.html', context)
 
-def detail(request, id):
-    article = get_object_or_404(Article, id=id)
-    context = {'article': article}
+def detail_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
+    comments = article.comment_set.all().order_by('-id')
+    comment_form = CommentModelForm()
+    context = {'article': article, 'comments': comments, 'comment_form': comment_form, }
     return render(request, 'board/detail.html', context)
 
 @require_http_methods(['GET', 'POST'])
-def edit(request, id):
-    article = get_object_or_404(Article, id=id)
+def edit_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
     if request.method == 'POST':
         # update
         form = ArticleModelForm(request.POST, instance=article)
         if form.is_valid():
-            article = form.save()
+            article = form.save() # aritcle = 은 안 써도 된다
             return redirect(article)
     else:
         # edit
@@ -61,7 +78,30 @@ def edit(request, id):
 
 
 @require_POST
-def delete(request, id):
-    article = get_object_or_404(Article, id=id)
+def delete_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
     article.delete()
     return redirect('board:list')
+
+
+@require_POST
+def new_comment(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
+    form = CommentModelForm(request.POST)
+    if form.is_valid():
+        # comment = Comment()
+        # comment.content = request.POST.get('content')
+        comment = form.save(commit=False)
+        comment.article_id = article.id
+        comment.save()
+    return redirect(article)
+
+
+def delete_comment(request, article_id, comment_id):
+    article = get_object_or_404(Article, id=article_id)
+    # SELECT * FROM articles WHERE id=article_id
+    comment = get_object_or_404(Comment, id=comment_id, article_id=article_id)
+    # SELECT * FROM comments WHERE id=comment_id
+    # if comment in article.comment_set.all():
+    comment.delete()
+    return redirect(comment.article)
