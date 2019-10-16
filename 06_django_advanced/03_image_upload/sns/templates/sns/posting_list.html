@@ -1,0 +1,21 @@
+{% extends 'sns/base.html' %}
+
+{% block title %}
+
+{% endblock title %}
+
+
+{% block body %}
+    {% if postings %}
+        <section>
+        {% include 'sns/_header.html' %}
+        {% for posting in postings %}
+            <article>
+                <a href="{{ posting.get_absolute_url }}">
+                    <img src="{{ posting.image.url }}" alt="{{ posting.image }}">
+                </a>
+            </article>
+        {% endfor %}
+        </section>
+    {% endif %}
+{% endblock body %}
