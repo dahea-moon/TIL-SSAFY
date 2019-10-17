@@ -4,17 +4,18 @@
 
 {% endblock title %}
 
+{% block list %}
+active
+{% endblock list %}
 
 {% block body %}
+    {% if user.is_authenticated %}
+    {% include 'sns/_header.html' %}
+    {% endif %}
     {% if postings %}
-        <section>
-        {% include 'sns/_header.html' %}
+        <section class="card-columns">
         {% for posting in postings %}
-            <article>
-                <a href="{{ posting.get_absolute_url }}">
-                    <img src="{{ posting.image.url }}" alt="{{ posting.image }}">
-                </a>
-            </article>
+            {% include 'sns/_card.html' %}
         {% endfor %}
         </section>
     {% endif %}

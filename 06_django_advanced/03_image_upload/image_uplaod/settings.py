@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap4',
     'django_extensions',
     'django.contrib.admin',
     'django.contrib.auth',  # authenticate (인증)
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sns',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +127,5 @@ STATIC_URL = '/static/' # 우리가 사용한 js/css/images
 MEDIA_URL = '/media/'
 # 저장될 위치
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')        # os.path == 내 컴퓨터 주소
+
+AUTH_USER_MODEL = 'auth.User'

@@ -7,6 +7,11 @@ Article detail
 {% block body %}
     <h1>{{ article.title }}</h1>
     <p>
+        created: {{ article.created_at }}
+        <hr>
+        updated: {{ article.updated_at }}
+    </p>
+    <p>
         {{ article.content }}
     </p>
     <div>

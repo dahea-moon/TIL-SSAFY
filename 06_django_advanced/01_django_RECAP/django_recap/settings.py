@@ -58,7 +58,12 @@ ROOT_URLCONF = 'django_recap.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        # 프로젝트 전체ㅔ서 공통으로 쓸 HTML을 어디에 두고, 어떻게 찾을 것인가
+        # INSTALLED_APPS 안의 templates/ 폴더에서 찾는다 가 기본적으로 되어있음
+        # 더 쓰면 추가되는 폴더 찾는 루트임.
+        # BASE_DIR 은 프로젝트 폴더를 의미한다
+        # 지정하는 SYNTAX: 최상위폴더, 상위폴더, 하위폴더 (BASE_DIR > templates)
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -109,7 +114,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+# TIME ZONE을 AISA/SEOUL로 바꾸면, 한국시간으로 바꾼다
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 

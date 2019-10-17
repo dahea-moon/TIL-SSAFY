@@ -1,0 +1,27 @@
+<nav class="mb-3">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="{% url 'sns:posting_list' %}" class="nav-link {% block list %}
+            {% endblock list %}">SNS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {% block detail %}
+            {% endblock detail %}" area-disabled="true">Detail</a>
+        </li>
+        {% if user.is_authenticated %}
+        <li class="nav-item">
+            <a href="{% url 'accounts:logout'%}" class="nav-link">Log Out</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">{{ user.username }}</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+            <a href="{% url 'accounts:signup'%}" class="nav-link">Sign Up</a>
+        </li>
+        <li class="nav-item">
+            <a href="{% url 'accounts:login'%}" class="nav-link">Log In</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

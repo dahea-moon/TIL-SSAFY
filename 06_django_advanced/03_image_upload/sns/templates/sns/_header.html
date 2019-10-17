@@ -1,14 +1,41 @@
-<header>
+<header class="mt-4 mb-4">
     <form action="{% url 'sns:create_posting' %}" enctype="multipart/form-data" method="POST">
         {% csrf_token %}
         <div class="form-row align-items-center">
-        <label for="content" class="sr-only">content</label>
-        <input type="text" name="content" id="content">
+            <!--icon select part-->
+            <div class="col-auto my-1">
+                <label for="icon" class="sr-only">icon</label>
+                <select name="icon" id="icon" class="custom-select mr-sm-2">
+                    <option value="far fa-question">?</option>
+                    <option value="far fa-smile">:)</option>
+                    <option value="far fa-angry">:(</option>
+                    <option value="far fa-smile-wink">;)</option>
+                    <option value="far fa-angrycreative">flex</option>
+                </select>
+            </div>
 
-        <input type="file" name="image" id="image" accept="image/*">
-        <label for="image"></label>
+            <!-- content input tag-->
+            <div class="col-sm-6 my-1">
+                <label for="content" class="sr-only">content</label>
+                <input type="text" name="content" id="content" class="form-control" placeholder="feels like...">
+            </div>
 
-        <button type="submit" class="btn btn-primary">submit</button>
+            
+            <!-- image file input tag-->
+            <div class="col-sm-4 my-1 input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                </div>
+                <div class="custom-file">
+                    <input type="file" name="image" id="image" accept="image/*" class="custom-file-input" placeholder="Choose image">
+                    <label for="image" class="custome-file-label">Browse</label>
+                </div>
+            </div>
+
+            <!-- image file input tag-->
+            <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary">submit</button>
+            </div>
         </div>
     </form>
 </header>

@@ -1,0 +1,24 @@
+<div class="col-12 col-md-6">
+    <div class="card mb-2">
+        <div class="card-body">
+        <form action="{% url 'sns:create_comment' posting.id %}" method="POST">
+            {% csrf_token %}
+            <label for="comment">{{ request.user }} leave your comment</label>
+            <input type="text" name="content" id="commnet" class="form-control" autofocus>
+            <input type="submit" value="OK">
+        </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <ul class="list-group list-group-flush">
+            {% if comments %}
+                {% for comment in comments %}
+                    <li class="list-group-item mb-1"> {{ comment.user }}: {{ comment.content }} <a href="{% url 'sns:delete_comment' posting.id comment.id %}"><i class="fas fa-trash"></i></a></li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item mb-1">No Comment</li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
