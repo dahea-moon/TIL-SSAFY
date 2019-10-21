@@ -18,7 +18,26 @@ active
                     <img class="card-img-top image-fluid" src="https://picsum.photos/500/300" alt="random">
                 {% endif %}
                 <div class="card-body">
-                    <i class=" {{ posting.icon }} fa-2x"></i>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class=" {{ posting.icon }} fa-2x"></i>
+                        </div>
+                        <div class="col-5">
+                            {{ posting.like_users.count }}명이 좋아합니다.
+                        </div>
+                        <div class="col-2">
+                            <form action="{% url 'sns:toggle_like' posting.id %}" method="POST">
+                                {% csrf_token %}
+                                <button>
+                                {% if is_like %}
+                                    Like
+                                {% else %}
+                                    Dislike
+                                {% endif %}
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                     <hr>
                     <div class="row">
                         <div class="col-10">

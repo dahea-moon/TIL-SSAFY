@@ -19,7 +19,11 @@ def posting_list(request):
 def posting_detail(request, posting_id):
     posting = get_object_or_404(Posting, id=posting_id)
     comments = posting.comments.all() # comment_set이 아닌 이유는 related_name이 comments이기 때문이다
-    context = {'posting': posting, 'comments': comments, }
+    if posting.like_users.filter(id=request.user.id).exists():
+        is_like = True
+    else:
+        is_like = False
+    context = {'posting': posting, 'comments': comments, 'is_like': is_like}
     return render(request, 'sns/posting_detail.html', context)
 
 
@@ -66,6 +70,18 @@ def delete_comment(request, posting_id, comment_id):
     comment = get_object_or_404(Comment, id=comment_id)
     comment.delete()
     return redirect(comment.posting)
+
+
+@login_required
+@require_POST
+def toggle_like(request, posting_id):
+    user = request.user
+    posting = get_object_or_404(Posting, id=posting_id)
+    if user in posting.like_users.filter(id=user.id).exists():
+        posting.like_users.remove(user)
+    else:
+        posting.like_users.add(user)
+    return redirect(posting)
 
 # @require_POST
 # def create_posting(request):
