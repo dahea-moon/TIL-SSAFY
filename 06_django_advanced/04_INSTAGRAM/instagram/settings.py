@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap4',
     'django_extensions',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'postings',
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +58,9 @@ ROOT_URLCONF = 'instagram.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -114,13 +119,16 @@ USE_L10N = True
 
 USE_TZ = True
 
+AUTH_USER_MODEL = 'accounts.User'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    
+    # BASE_DIR/app/static/ 자동으로 검색
+    # 추가로 여기도 찾아봐 주렴
+    os.path.join(BASE_DIR, 'assets')
 ]
 
 MEDIA_URL = '/media/'
