@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <style>
+            /* 보여짐의 영역 */
+    </style>
+</head>
+<body>
+    <!-- 데이터 및 내용 -->
+    <h1>Hello World!</h1>
+    <button onclick="changeH1Text();">CHANGE</button>
+    <script>
+        // 프로그래밍의 영역
+        function changeH1Text() {
+            const header = document.querySelector('h1');
+            console.log(header);
+            const inputText = prompt('뭐라도 써보자');
+            header.innerText = inputText;
+        }
+
+    </script>
+</body>
+</html>
