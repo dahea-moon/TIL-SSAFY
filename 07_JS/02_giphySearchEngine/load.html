@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul id="js-list">
+
+        </ul>
+    </div>
+    <script>
+        const ul = document.querySelector('#js-list');
+        
+        let count = 0;
+        window.addEventListener('wheel', (e) => {
+            count += 1;
+            fetch(`https://koreanjson.com/posts/${count}`)
+               .then(res => res.json())
+               .then(data => ul.innerHTML += `<li>${data.title}</li>`)
+        });
+    </script>
+</body>
+</html>
