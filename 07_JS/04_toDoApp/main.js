@@ -1,38 +1,35 @@
-// card 만들기
 function init() {
     const button = document.querySelector('#js-todo-button');
-    const inputArea = document.querySelector('#js-todo-input');
-    const reverseBtn = document.querySelector('#js-reverse-btn');
+    const inputTag = document.querySelector('#js-todo-input');
+    const reverseBtn = document.querySelector('#js-reverse-button');
+    const saveBtn = document.querySelector('#js-save-button');
+    const loadBtn = document.querySelector('#js-load-button');
 
-    reverseBtn.addEventListener('click', () => {
-        const todoArea = document.querySelector('#js-todo-area');
-        const todos = Array.from(document.querySelectorAll('.js-card'));
 
-        while (todoArea.firstChild) {
-            todoArea.removeChild(todoArea.firstChild);
-        }
+    saveBtn.addEventListener('click', saveToLocalStorage);
 
-        todos.reverse().forEach((todo) => {
-            todoArea.appendChild(todo)
-        });
+    loadBtn.addEventListener('click', loadFromLocalStorage);
 
-    })
+    reverseBtn.addEventListener('click', reverseTodoItems);
 
     button.addEventListener('click', () => {
         const inputArea = document.querySelector('#js-todo-input');
         createTodoCard(inputArea.value);
         inputArea.value = null;
-    })
+    });
 
-    inputArea.addEventListener('keydown', (e) => {
+    inputTag.addEventListener('keydown', (e) => {
         if (e.which === 13) {
             const inputArea = document.querySelector('#js-todo-input');
             createTodoCard(inputArea.value);
             inputArea.value = null;
         }
-    })
+    });
+}
 
-    const createTodoCard = (content, completed = false) => {
+// Card 만들기
+function createTodoCard (content) {
+    if (content) {
         const cardArea = document.querySelector('#js-todo-area');
 
         const todo = document.createElement('div');
@@ -43,10 +40,9 @@ function init() {
 
         const checkBox = document.createElement('input');
         checkBox.type = 'checkbox';
-
+        // 새로고침 이후에도 이벤트 리스너가 달리는지?
         checkBox.addEventListener('click', () => {
-            const checked = checkBox.checked
-            if (checked) {
+            if (checkBox.checked) {
                 todo.classList.add('secondary');
                 label.classList.add('done');
             } else {
@@ -71,6 +67,38 @@ function init() {
         todo.appendChild(deleteIcon);
         cardArea.appendChild(todo);
     }
+}
+
+function saveToLocalStorage () {
+    if (confirm('save?')) {
+        const todoArea = document.querySelector('#js-todo-area');
+        const content = todoArea.innerText;
+        localStorage.setItem('content', content);
+        alert('saved!');
+    }
+}
+
+function loadFromLocalStorage () {
+    if (confirm('load?')) {
+        const contents = localStorage.getItem('content').split('\n');
+        for (let i=0; i < contents.length; i++) {
+            createTodoCard(contents[i]);
+        }
+        alert('loaded!');
+    }
+}
+
+function reverseTodoItems () {
+    const todoArea = document.querySelector('#js-todo-area');
+    const todos = Array.from(document.querySelectorAll('.js-card'));
+
+    while (todoArea.firstChild) {
+        todoArea.removeChild(todoArea.firstChild);
+    }
+
+    todos.reverse().forEach((todo) => {
+        todoArea.appendChild(todo);
+    });
 }
 
 init();
