@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Identicon</title>
+</head>
+
+<body>
+  <h1>Identicon Generator</h1>
+  <div id="app">
+    <div>
+      <input type="text" v-model="newValue" v-on:keyup="inputValue">
+    </div>
+    <div v-html="image">
+      
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.rawgit.com/dmester/jdenticon/5bbdf8cb/dist/jdenticon.min.js"></script>
+  <script>
+    // const app = document.querySelector('#app');
+    // app.innerHTML = jdenticon.toSvg('ssafy', 200) // (text, width)
+
+    /*
+      1. input 의 value 를 잡는다.
+      2. value 를 jdentivon.toSvb('value', 200)
+      3. 값을 화면에 보여준다.
+    */
+
+    const app = new Vue({
+      el: '#app',
+      data: {
+        newValue: '',
+        image: '',
+      },
+      methods: {
+        inputValue: function() {
+          // console.log(this.newValue)
+          this.image = jdenticon.toSvg(this.newValue, 200)
+        },
+      }
+
+    })
+
+  </script>
+</body>
+
+</html>

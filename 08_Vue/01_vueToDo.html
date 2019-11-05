@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <title>Todo</title>
     <style>
-        .complted {
+        .completed {
             text-decoration: line-through;
-            font-style: italic;
+            opacity: 0.6;
         }
     </style>
 </head>
 <body>
     <div id="app">
+        <select v-model="showMode">
+            <option value="all">모두보기</option>
+            <option value="active">할 일 보기</option>
+            <option value="done">끝난 일 보기</option>
+        </select>
+        <!-- v-model 사용자 입력값 <=> [data]] 랑 동기화 -->
         <input type="text"
             v-model="newTodo"
             v-on:keyup.enter="addTodo"
@@ -21,28 +27,49 @@
         <!-- 'v-' 접두사가 붙으면, 디렉티브(directive)라고 부른다 -->
         <ul>
             <!-- 'v-for'가 있는 element가 반복 -->
+            <!-- v-for는 반드시 v-bind:key=unique_key 가 있어야한다 -->
             <!-- 'v-if' 는 평가식이 true일 때만 보임 -->
             <!-- 우선순위는 'v-for' > 'v-if' -->
             <!-- 우선순위는 'v-for' > 'v-on' -->
-            <li v-for="todo in todos" v-if="!todo.completed" v-on:click="check(todo)">
-                {{ todo.content }}
+            <li 
+                v-for="todo in sortedTodos"
+                v-if="!todo.completed" 
+                v-on:click="check(todo)" 
+                v-bind:key="todo.id"
+            > 
+                <input type="checkbox" v-model="todo.completed">
+                <span>{{ todo.content }}</span>
             </li>
             <!-- <li v-else-if="condition"></li> -->
             <!-- 'v-if'와 'v-else'는 딱 붙어있어야함! -->
-            <li v-else v-on:click="check(todo)">
-                [완료!] {{ todo.content }}
+            <li v-else v-on:click="check(todo)" class="completed">
+                <input type="checkbox" v-model="todo.completed">
+                <span>{{ todo.content }}</span>
             </li>
         </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
+        const STORAGE_KEY = 'vue-todos';
+        const todoStorage = {
+            load () {
+                // const storageItems = localStorage.getItem(STORAGE_KEY);
+                // return storageItems ? JSON.parse(storageItems) : []
+                return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+            },
+            save (todo) {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(todo));
+            },
+        };
+
         const app = new Vue({
             el: '#app',
             data: { // data 가 수정된다 === DOM re-render가 일어난다
                 newTodo: '',
-                todos: [],
+                todos: todoStorage.load(),
+                showMode: 'all',
             },
-            methods: {
+            methods: {  // data 가 수정되는 로직.(setter 함수). ()을 붙임
                 check: function(todo) {
                     if (todo.completed) {
                         todo.completed = false;
@@ -54,6 +81,7 @@
                 },
                 addTodo: function() {
                     this.todos.push({
+                        id: Date.now(),
                         content: this.newTodo,
                         completed: false,
                     });
@@ -73,7 +101,36 @@
                     // }
                     // this.todos = newTodos;
                     this.todos = this.todos.filter(todo => !todo.completed)
-                }
+                },
+            },
+            computed: { // data를 가공해서 리턴함. 수정x (getter 함수). () 절대 안 붙임.
+                // ES6+ Object literal (편하게 쓰기)
+                sortedTodos () { // 함수 이름이 리턴 되는 값
+                    if (this.showMode === 'active') {
+                        // 남은 일들만 보여주기
+                        const notFinished = [];
+                        for (const todo of this.todos) {
+                            if (!todo.completed) {
+                                notFinished.push(todo)
+                            }
+                        }
+                        return notFinished;
+                    } else if (this.showMode === 'done') { // 끝난 일들만 보여주기
+                        const finished = this.todos.filter (todo => todo.completed);
+                        return finished
+                    } else { // all
+                        return this.todos
+                    }
+                },
+            },
+            watch: { // 특정 data를 관찰함. 해당 data가 변하면 함수 실행함. 함수이름이 data key 값과 꼭 같아야함. 최대한 쓰지 말아야한다. <외부 api 사용>
+                // 함수 이름 (key)
+                todos: function () {
+                    // LOCAL STORAGE save
+                    todoStorage.save(this.todos);
+                },
+                // 밑의 것까지 끝까지 다 본다
+                deep: true,
             },
         });
     </script>

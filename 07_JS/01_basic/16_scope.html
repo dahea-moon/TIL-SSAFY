@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var / let / const
+        // var: function scope
+        for (var i=0; i <10; i++) {
+            var j = 100
+        };
+        console.log(i, j);
+        // i, j는 접근 가능
+
+        function aa () {
+            var a = 1;
+        }
+        aa();
+        console.log(a);
+        // a는 접근 불가능, undefined로 나옴
+
+        // let/const: block scope
+        // block == {}
+        for (let x=0; x < 10; x++) {
+            let y =100;
+        }
+        console.log(x, y);
+        // x,y는 block 밖에 있어 접근할 수 없다
+
+        function bb () {
+            const b = 1;
+        }
+        bb();
+        console.log(b)
+        // b도 마찬가지로 접근 불가능
+
+        // JS Global(전역) 변수
+        glob1 = 1;
+        function qq() {
+            for (t=0; t < 10; t++) {
+            glob2 = 11;
+            };
+            glob3 = 111;
+        }
+        qq();
+        // 바로 window에 붙어있는 변수이기 때문에 어디서 불러든 접근 가능하다
+
+    </script>
+</body>
+</html>

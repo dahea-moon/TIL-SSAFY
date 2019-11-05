@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Identicon</title>
+</head>
+
+<body>
+  <h1>Identicon Generator</h1>
+  <div id="app">
+      <div>
+            <div>
+                <input type="text" v-model="input">
+            </div>
+            <div v-html="makeIdenticon"></div>
+      </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.rawgit.com/dmester/jdenticon/5bbdf8cb/dist/jdenticon.min.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        input: '',
+      },
+      methods: { // 데이터를 변화. return x. ()을 붙힌다.
+      },
+      computed: { // 데이터를 가공. return o. ()을 붙히지 않는다.
+        makeIdenticon () {
+          return jdenticon.toSvg(this.input, 200);
+        },
+      },
+      template: ` // div 한 덩어리어야 한다
+        <div>
+            <div>
+                <input type="text" v-model="input">
+            </div>
+            <div v-html="makeIdenticon"></div>
+        </div>
+      `,
+
+    })
+
+  </script>
+</body>
+
+</html>
