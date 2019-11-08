@@ -14,18 +14,21 @@
     <div id="js-content-area">
 
     </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         const url = 'https://koreanjson.com';
         const btn1 = document.querySelector('#js-data-load-btn');
         const btn2 = document.querySelector('#js-load-fetch');
         const btn3 = document.querySelector('#js-load-axios');
+        const area = document.querySelector('#js-content-area');
+
         let postId = 1;
         btn1.addEventListener('click', () => {
             const AJAX = new XMLHttpRequest();
             AJAX.open('GET', `${url}/posts/${postId++}`);
             AJAX.send();
             AJAX.addEventListener('load', (e) => {
-                const area = document.querySelector('#js-content-area');
+                // const area = document.querySelector('#js-content-area');
                 const data = JSON.parse(e.target.response);
                 area.innerHTML = `<p>${data.title}</p>`;
             });
@@ -34,12 +37,18 @@
             fetch(`${url}/posts/${postId++}`)
                 .then(res => res.json())
                 .then(data => {
-                    const area = document.querySelector('#js-content-area');
+                    // const area = document.querySelector('#js-content-area');
                     area.innerHTML += `<p>${data.title}</p>`
                 });
         });
-        // AJAX == Asynchoronous Javascript And XML
-        // HTML 전환 없이 요청(GET, POST)을 보낸다
+        btn3.addEventListener('click', () => {
+            axios.get(`${url}/posts/${postId++}`) // promise
+                .then((res) => res.data)
+                .then(data => {
+                    area.innerHTML += `<p>${data.title}</p>`
+                })
+                .catch(err => console.error(`${err}`))
+            })
     </script>
 </body>
 </html>

@@ -37,6 +37,7 @@ numbers.includes('a') // false
 numbers
 
 numbers.indexOf(1); // 0
+// 없으면 -1
 
 numbers.join() // "1,2,3,4"
 numbers.join('') // "1234"
