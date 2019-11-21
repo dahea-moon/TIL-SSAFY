@@ -52,6 +52,7 @@
                             this.isLoading = false
                             this.$session.start() // sessionsStorage.session-id: sess: + Date.now()
                             this.$session.set('jwt', res.data.token)
+                            this.$store.dispath('login', res.data.token)
                             router.push('/');
                         })
                         .catch(err => {
