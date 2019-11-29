@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import LoginForm from '../views/LoginForm.vue'
+import LoginForm from '@/components/LoginForm.vue'
 // import router from '../router'
 
 export default {
