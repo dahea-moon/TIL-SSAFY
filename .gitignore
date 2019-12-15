@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/node,venv,vuejs,django,pycharm,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,venv,vuejs,django,pycharm,visualstudiocode
 
-.ipynb
+*.ipynb
 
 ### Django ###
 *.log
