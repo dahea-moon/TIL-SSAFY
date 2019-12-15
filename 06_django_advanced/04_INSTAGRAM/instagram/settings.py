@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l3!vhidohop4j)%x2dx_a%&h4%h+tl(g!3#d!+3p#m@+qxs5$x'
+SECRET_KEY = '@c6aj%xqr3a=lc2ui=do*z+g%z9aycdcn%6752#ayzlt6gxuaz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'postings',
-    'accounts'
+    'postings', 
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +59,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'templates')
+            # BASE_DIR/APP/templates/ 자동으로 검색 (기본값)
+            os.path.join(BASE_DIR, 'templates')  # BASE_DIR/templates 도 찾아달라고 요청 (추가)
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -119,16 +120,26 @@ USE_L10N = True
 
 USE_TZ = True
 
+
 AUTH_USER_MODEL = 'accounts.User'
+# shell_plus
+# from django.conf import settings
+# settings.AUTH_USER_MODEL
+# 따로 지정 안하면 django 내장된 기본 auth user model 있음
+# 우리가 정한 accounts > model 로 가도록 덮어쓰기
+# User 쓸 때, 확장 할지 안할지 몰라도 일단 쓰는게 장고 권장사항 (+ models 에서 User 모델까지)
+# db 에서 auth_user 가 아니라 accounts_user 테이블이 생성된 것을 확인할 수 있음
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/'  # > 아무말 써도 됨
+# html 에서 {% static 'MY/FILE %} = > 이게 HTML 의 접두사
+# 왜 만들까? > url 을 어떻게 만들까 할 때
 STATICFILES_DIRS = [
-    # BASE_DIR/app/static/ 자동으로 검색
-    # 추가로 여기도 찾아봐 주렴
-    os.path.join(BASE_DIR, 'assets')
+    # BASE_DIR/APP/static/ 자동으로 검색 (기본값)
+    os.path.join(BASE_DIR, 'assets'),  # BASE_DIR/APP/asstes 도 찾아달라고 요청 (추가)
 ]
 
 MEDIA_URL = '/media/'

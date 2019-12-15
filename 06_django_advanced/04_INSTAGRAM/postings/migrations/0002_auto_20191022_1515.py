@@ -10,9 +10,13 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+        migrations.AlterModelOptions(
+            name='posting',
+            options={'ordering': ('-created',)},
+        ),
         migrations.RemoveField(
             model_name='posting',
-            name='hastags',
+            name='hashtags',
         ),
         migrations.RemoveField(
             model_name='posting',
